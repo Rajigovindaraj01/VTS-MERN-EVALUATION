@@ -1,0 +1,737 @@
+.home-container-1{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5%;
+  align-items: center;
+}
+.hc1-col1 h2{
+    font-size: 3rem;
+    font-family: "Winky Sans", sans-serif;
+}
+.hc1-col1 p{
+    font-family: "Cookie", cursive;
+    font-size: 2rem;
+}
+.hc1-col1 button{
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(161, 113, 24);
+    background:linear-gradient(135deg,orange,rgb(248, 212, 112));
+}
+.hc1-col1 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(161, 113, 24);
+}
+.hc1-col2{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.hc1-col2 img {
+  height: 100%;
+  width: 100%;
+  animation: rotateFood 20s linear infinite;
+  filter: drop-shadow(0 0 22px black);
+}
+@keyframes rotateFood {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* ------------------------------------------------------------------------------------- */
+.menu-section {
+  width: 90%;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.menu-section h2 {
+  font-size: 2.5rem;
+   font-family: "Winky Sans", sans-serif;
+}
+
+.menu-section p {
+  color: gray;
+  font-family: "Cookie", cursive;
+  font-size: 2rem;
+}
+
+.menu-grid {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10%;
+}
+
+
+.menu-card {
+    position: relative;
+  background: rgba(255, 255, 255, 0.151);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.61);
+  transition: 0.3s;
+}
+
+.menu-card:hover {
+  transform: translateY(-10px);
+}
+.menu-image{
+    position: absolute;
+    top: -25%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 25vh;
+    overflow: hidden;
+    width: 10vw;
+    filter: drop-shadow(0 0 20px black);
+}
+.menu-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.menu-card h3{
+    margin-top: 30%;
+}
+.desc {
+  font-size: 25px !important;
+  color: #555;
+  margin: 10px 0;
+}
+
+.rating {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.price-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.cart-btn {
+  padding: 8px 15px;
+  border: none;
+  background: orange;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cart-btn:hover {
+  background: darkorange;
+}
+@media (min-width:300px) and (max-width:576px) {
+  .home-container-1{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5%;
+  align-items: center;
+}
+.hc1-col1 h2{
+    font-size: 1.5rem;
+    font-family: "Winky Sans", sans-serif;
+}
+.hc1-col1 p{
+    font-family: "Cookie", cursive;
+    font-size: 1rem;
+}
+.hc1-col1 button{
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(161, 113, 24);
+    background:linear-gradient(135deg,orange,rgb(248, 212, 112));
+}
+.hc1-col1 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(161, 113, 24);
+}
+.hc1-col2{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+}
+.hc1-col2 img {
+  height: 100%;
+  width: 100%;
+  animation: rotateFood 20s linear infinite;
+  filter: drop-shadow(0 0 10px black);
+}
+@keyframes rotateFood {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* ------------------------------------------------------------------------------------- */
+.menu-section {
+  width: 90%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.menu-section h2 {
+  font-size: 2rem;
+   font-family: "Winky Sans", sans-serif;
+}
+
+.menu-section p {
+  color: gray;
+  font-family: "Cookie", cursive;
+  font-size: 1rem;
+}
+
+.menu-grid {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    margin-top: 40%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3%;
+}
+
+
+.menu-card {
+    position: relative;
+  background: rgba(255, 255, 255, 0.151);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.61);
+  transition: 0.3s;
+}
+
+.menu-card:hover {
+  transform: translateY(-10px);
+}
+.menu-image{
+    position: absolute;
+    top: -25%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 35vh;
+    overflow: hidden;
+    width: 30vw;
+    filter: drop-shadow(0 0 20px black);
+}
+.menu-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.menu-card h3{
+    margin-top: 30%;
+}
+.desc {
+  font-size: 25px !important;
+  color: #555;
+  margin: 10px 0;
+}
+
+.rating {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.price-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.cart-btn {
+  padding: 8px 15px;
+  border: none;
+  background: orange;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cart-btn:hover {
+  background: darkorange;
+}
+}
+@media (min-width:577px) and (max-width:768px) {
+  .home-container-1{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5%;
+  align-items: center;
+}
+.hc1-col1 h2{
+    font-size: 2rem;
+    font-family: "Winky Sans", sans-serif;
+}
+.hc1-col1 p{
+    font-family: "Cookie", cursive;
+    font-size: 1.5rem;
+}
+.hc1-col1 button{
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(161, 113, 24);
+    background:linear-gradient(135deg,orange,rgb(248, 212, 112));
+}
+.hc1-col1 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(161, 113, 24);
+}
+.hc1-col2{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+}
+.hc1-col2 img {
+  height: 100%;
+  width: 100%;
+  animation: rotateFood 20s linear infinite;
+  filter: drop-shadow(0 0 22px black);
+}
+@keyframes rotateFood {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* ------------------------------------------------------------------------------------- */
+.menu-section {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.menu-section h2 {
+  font-size: 2rem;
+   font-family: "Winky Sans", sans-serif;
+}
+
+.menu-section p {
+  color: gray;
+  font-family: "Cookie", cursive;
+  font-size: 2rem;
+}
+
+.menu-grid {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+}
+
+
+.menu-card {
+    position: relative;
+  background: rgba(255, 255, 255, 0.151);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.61);
+  transition: 0.3s;
+}
+
+.menu-card:hover {
+  transform: translateY(-10px);
+}
+.menu-image{
+    position: absolute;
+    top: -25%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 25vh;
+    overflow: visible;
+    width: 20vw;
+    filter: drop-shadow(0 0 20px black);
+}
+.menu-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.menu-card h3{
+    margin-top: 30%;
+}
+.desc {
+  font-size: 25px !important;
+  color: #555;
+  margin: 10px 0;
+}
+
+.rating {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.price-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.cart-btn {
+  padding: 8px 15px;
+  border: none;
+  background: orange;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cart-btn:hover {
+  background: darkorange;
+}
+}
+@media (min-width:769px) and (max-width:992px) {
+  .home-container-1{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5%;
+  align-items: center;
+}
+.hc1-col1 h2{
+    font-size: 2rem;
+    font-family: "Winky Sans", sans-serif;
+}
+.hc1-col1 p{
+    font-family: "Cookie", cursive;
+    font-size: 1.5rem;
+}
+.hc1-col1 button{
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(161, 113, 24);
+    background:linear-gradient(135deg,orange,rgb(248, 212, 112));
+}
+.hc1-col1 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(161, 113, 24);
+}
+.hc1-col2{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+}
+.hc1-col2 img {
+  height: 100%;
+  width: 100%;
+  animation: rotateFood 20s linear infinite;
+  filter: drop-shadow(0 0 22px black);
+}
+@keyframes rotateFood {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* ------------------------------------------------------------------------------------- */
+.menu-section {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.menu-section h2 {
+  font-size: 2rem;
+   font-family: "Winky Sans", sans-serif;
+}
+
+.menu-section p {
+  color: gray;
+  font-family: "Cookie", cursive;
+  font-size: 2rem;
+}
+
+.menu-grid {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+}
+
+
+.menu-card {
+    position: relative;
+  background: rgba(255, 255, 255, 0.151);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.61);
+  transition: 0.3s;
+}
+
+.menu-card:hover {
+  transform: translateY(-10px);
+}
+.menu-image{
+    position: absolute;
+    top: -25%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 25vh;
+    overflow: visible;
+    width: 20vw;
+    filter: drop-shadow(0 0 20px black);
+}
+.menu-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.menu-card h3{
+    margin-top: 30%;
+}
+.desc {
+  font-size: 25px !important;
+  color: #555;
+  margin: 10px 0;
+}
+
+.rating {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.price-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.cart-btn {
+  padding: 8px 15px;
+  border: none;
+  background: orange;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cart-btn:hover {
+  background: darkorange;
+}
+}
+@media (min-width:993px) and (max-width:1200px) {
+  .home-container-1{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5%;
+  align-items: center;
+}
+.hc1-col1 h2{
+    font-size: 2.3rem;
+    font-family: "Winky Sans", sans-serif;
+}
+.hc1-col1 p{
+    font-family: "Cookie", cursive;
+    font-size: 1.8rem;
+}
+.hc1-col1 button{
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(161, 113, 24);
+    background:linear-gradient(135deg,orange,rgb(248, 212, 112));
+}
+.hc1-col1 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(161, 113, 24);
+}
+.hc1-col2{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+}
+.hc1-col2 img {
+  height: 100%;
+  width: 100%;
+  animation: rotateFood 20s linear infinite;
+  filter: drop-shadow(0 0 22px black);
+}
+@keyframes rotateFood {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* ------------------------------------------------------------------------------------- */
+.menu-section {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.menu-section h2 {
+  font-size: 2rem;
+   font-family: "Winky Sans", sans-serif;
+}
+
+.menu-section p {
+  color: gray;
+  font-family: "Cookie", cursive;
+  font-size: 2rem;
+}
+
+.menu-grid {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10%;
+}
+
+
+.menu-card {
+    position: relative;
+  background: rgba(255, 255, 255, 0.151);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.61);
+  transition: 0.3s;
+}
+
+.menu-card:hover {
+  transform: translateY(-10px);
+}
+.menu-image{
+    position: absolute;
+    top: -25%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 25vh;
+    overflow: visible;
+    width: 25vw;
+    filter: drop-shadow(0 0 20px black);
+}
+.menu-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.menu-card h3{
+    margin-top: 30%;
+}
+.desc {
+  font-size: 25px !important;
+  color: #555;
+  margin: 10px 0;
+}
+
+.rating {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.price-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.cart-btn {
+  padding: 8px 15px;
+  border: none;
+  background: orange;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cart-btn:hover {
+  background: darkorange;
+}
+}
+select{
+  border: 1px dashed orange;
+  background-color: rgba(250, 213, 157, 0.856);
+}

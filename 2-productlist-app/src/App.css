@@ -1,0 +1,65 @@
+
+body{
+ background-size: cover; 
+ padding: 20px;
+  background-repeat: no-repeat;
+  background-image: url('https://i.pinimg.com/736x/d6/b7/93/d6b7935c5a70ec652956a208f16e7b8d.jpg');
+}
+.app-container{
+  width: 95%;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgba(245, 245, 220, 0.281);
+  box-shadow: 0 0 20px black;
+  padding-bottom: 30%;
+}
+@media (min-width:300px) and (max-width:400px) {
+  .app-container{
+  width: 95%;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgba(245, 245, 220, 0.281);
+  box-shadow: 0 0 20px black;
+  padding-bottom: 350%;
+}
+}
+@media (min-width:401px) and (max-width:576px) {
+  .app-container{
+  width: 95%;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgba(245, 245, 220, 0.281);
+  box-shadow: 0 0 20px black;
+  padding-bottom: 250%;
+}
+}
+@media (min-width:577px) and (max-width:768px) {
+  .app-container{
+  width: 95%;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgba(245, 245, 220, 0.281);
+  box-shadow: 0 0 20px black;
+  padding-bottom: 100%;
+}
+}
+@media (min-width:769px) and (max-width:992px) {
+  .app-container{
+  width: 95%;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgba(245, 245, 220, 0.281);
+  box-shadow: 0 0 20px black;
+  padding-bottom: 100%;
+}
+}
+@media (min-width:993px) and (max-width:1200px) {
+  .app-container{
+  width: 95%;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgba(245, 245, 220, 0.281);
+  box-shadow: 0 0 20px black;
+  padding-bottom: 50%;
+}
+}

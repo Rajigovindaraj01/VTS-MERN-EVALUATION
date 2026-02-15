@@ -1,0 +1,235 @@
+.navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h1{
+     font-family: "Oswald", sans-serif;
+     text-shadow: 0 0 2px black;
+}
+.logo h1 span{
+    color: maroon;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+     font-family: "Oswald", sans-serif;
+     font-size: 1.5rem;
+}
+.search-container input{
+    background-color: rgba(255, 255, 255, 0.541);
+    border: 1px dashed orange;
+    padding: 12px;
+    border-radius: 10px;
+}
+.search-container button{
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(161, 113, 24);
+    background:linear-gradient(135deg,orange,rgb(248, 212, 112));
+}
+.search-container button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(161, 113, 24);
+}
+@media (min-width:300px) and (max-width:400px) {
+    .navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h1{
+     font-family: "Oswald", sans-serif;
+     text-shadow: 0 0 2px black;
+}
+.logo h1 span{
+    color: maroon;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+     font-family: "Oswald", sans-serif;
+     font-size: 1.5rem;
+}
+.search-container input{
+    background-color: rgba(255, 255, 255, 0.541);
+    border: 1px dashed orange;
+    padding: 10px;
+    border-radius: 10px;
+}
+.search-container button{
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(161, 113, 24);
+    background:linear-gradient(135deg,orange,rgb(248, 212, 112));
+}
+.search-container button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(161, 113, 24);
+}
+}
+@media (min-width:401px) and (max-width:576px) {
+    .navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h1{
+     font-family: "Oswald", sans-serif;
+     text-shadow: 0 0 2px black;
+}
+.logo h1 span{
+    color: maroon;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    margin-top: 5%;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+     font-family: "Oswald", sans-serif;
+     font-size: 1.3rem;
+}
+.search-container input{
+    background-color: rgba(255, 255, 255, 0.541);
+    border: 1px dashed orange;
+    padding: 10px;
+    border-radius: 10px;
+}
+.search-container button{
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(161, 113, 24);
+    background:linear-gradient(135deg,orange,rgb(248, 212, 112));
+}
+.search-container button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(161, 113, 24);
+}
+}
+@media (min-width:577px) and (max-width:768px) {
+    .navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h1{
+     font-family: "Oswald", sans-serif;
+     text-shadow: 0 0 2px black;
+}
+.logo h1 span{
+    color: maroon;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    margin-top: 5%;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+     font-family: "Oswald", sans-serif;
+     font-size: 1.3rem;
+}
+.search-container input{
+    background-color: rgba(255, 255, 255, 0.541);
+    border: 1px dashed orange;
+    padding: 10px;
+    border-radius: 10px;
+}
+.search-container button{
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(161, 113, 24);
+    background:linear-gradient(135deg,orange,rgb(248, 212, 112));
+}
+.search-container button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(161, 113, 24);
+}
+}
+@media (min-width:769px) and (max-width:992px) {
+    .navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h1{
+     font-family: "Oswald", sans-serif;
+     text-shadow: 0 0 2px black;
+}
+.logo h1 span{
+    color: maroon;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+     font-family: "Oswald", sans-serif;
+     font-size: 1.3rem;
+}
+.search-container input{
+    background-color: rgba(255, 255, 255, 0.541);
+    border: 1px dashed orange;
+    padding: 10px;
+    border-radius: 10px;
+}
+.search-container button{
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(161, 113, 24);
+    background:linear-gradient(135deg,orange,rgb(248, 212, 112));
+}
+.search-container button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(161, 113, 24);
+}
+}
