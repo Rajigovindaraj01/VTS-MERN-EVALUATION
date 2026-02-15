@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="glass-card">
+    <h2>💪 BMI Calculator</h2>
+    <p class="subtitle">Check your Body Mass Index</p>
+
+    <div class="input-group">
+      <input type="number" id="height" required>
+      <label>Height (cm)</label>
+    </div>
+
+    <div class="input-group">
+      <input type="number" id="weight" required>
+      <label>Weight (kg)</label>
+    </div>
+
+    <div class="btn-group">
+      <button onclick="calculateBMI()">Calculate</button>
+      <button class="reset" onclick="resetBMI()">Reset</button>
+    </div>
+
+    <div id="result" class="result-box"></div>
+
+    <canvas id="bmiChart"></canvas>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
