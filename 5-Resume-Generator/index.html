@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Professional Resume Builder</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Boldonse&family=Cookie&family=Creepster&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dokdo&family=Engagement&family=Fascinate+Inline&family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Londrina+Outline&family=Londrina+Shadow&family=Martel:wght@200;300;400;600;700;800;900&family=Mea+Culpa&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Onest:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Pompiere&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rochester&family=Rouge+Script&family=Rubik+Mono+One&family=Rubik+Wet+Paint&family=Rubik:ital,wght@0,300..900;1,300..900&family=Rye&family=Special+Gothic+Condensed+One&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="form-page" id="formPage">
+  <h2>🚀 Build Your Professional Resume</h2>
+
+  <input type="file" id="profileImg" accept="image/*">
+  <input type="text" id="name" placeholder="Full Name">
+  <input type="text" id="profession" placeholder="Profession / Role">
+
+  <textarea id="objective" placeholder="Career Objective"></textarea>
+  <textarea id="education" placeholder="Education"></textarea>
+  <textarea id="skills" placeholder="Skills (comma separated)"></textarea>
+  <textarea id="experience" placeholder="Experience"></textarea>
+
+  <input type="url" id="github" placeholder="GitHub Link">
+  <input type="url" id="portfolio" placeholder="Portfolio Link">
+  <input type="url" id="linkedin" placeholder="LinkedIn Link">
+
+  <textarea id="achievements" placeholder="Achievements"></textarea>
+
+  <h3>Projects</h3>
+  <input type="file" id="projectImg" accept="image/*">
+  <textarea id="projectDesc" placeholder="Project Description"></textarea>
+
+  <button onclick="generateResume()">Generate Resume</button>
+</div>
+<div class="resume-page hidden" id="resumePage">
+
+  <div class="resume" id="resume">
+
+    <div class="header">
+      <img id="rProfile">
+      <div>
+        <h1 id="rName"></h1>
+        <h3 id="rProfession"></h3>
+      </div>
+    </div>
+
+    <section>
+      <h2>Objective</h2>
+      <p id="rObjective"></p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p id="rEducation"></p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <p id="rSkills"></p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <p id="rExperience"></p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <img id="rProjectImg">
+      <p id="rProjectDesc"></p>
+    </section>
+
+    <section>
+      <h2>Achievements</h2>
+      <p id="rAchievements"></p>
+    </section>
+
+    <section>
+      <h2>Links</h2>
+      <ul>
+        <li>GitHub: <a id="rGithub" target="_blank">View</a></li>
+        <li>Portfolio: <a id="rPortfolio" target="_blank">View</a></li>
+        <li>LinkedIn: <a id="rLinkedin" target="_blank">View</a></li>
+      </ul>
+    </section>
+
+  </div>
+
+  <div class="action-buttons">
+    <button onclick="downloadPDF()">⬇️ Download PDF</button>
+    <button onclick="printResume()">🖨️ Print</button>
+  </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

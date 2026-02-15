@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  font-family: "Pompiere", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #1d2671, #c33764);
+  padding: 20px;
+}
+
+.form-page {
+  max-width: 700px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.301);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+}
+
+.form-page input,
+.form-page textarea {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.301);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(135deg, #ce43c2, #9d1875);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 3%;
+}
+
+button:hover{
+    box-shadow: inset 5px 5px 5px black;
+    cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+
+.resume-page {
+  margin-top: 20px;
+}
+
+.resume {
+  max-width: 900px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.377);
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #faa7c2;
+}
+
+section {
+  margin-top: 20px;
+}
+
+section h2 {
+    font-family: "Winky Sans", sans-serif;
+    color: pink;
+    border-bottom: 2px dashed #fadbe5;
+}
+
+#rProjectImg {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.action-buttons {
+    width: 60%;
+    margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.action-buttons button {
+  padding: 12px 22px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 0 10px black;
+}
+
+@media print {
+  body {
+    background: white;
+  }
+
+  .form-page,
+  .action-buttons {
+    display: none;
+  }
+
+  .resume {
+    box-shadow: none;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
