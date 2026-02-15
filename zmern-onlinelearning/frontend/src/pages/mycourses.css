@@ -1,0 +1,34 @@
+.mycourses-container{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.349);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(124, 65, 124);
+}
+.mycourses-container h2{
+    margin-top: 10px;
+    font-family: "Winky Sans", sans-serif;
+}
+.mycourses-list{
+    position: relative;
+    margin-top: 5%;
+}
+.mycourses-list h3, h4{
+    margin-top: 10px;
+    font-family: "Winky Sans", sans-serif;
+}
+.mycourses-list p{
+    position: relative;
+    margin-top: 10px;
+    font-family: "Pompiere", sans-serif;
+}
+@media (min-width:300px) and (max-width:576px) {
+.thumbnail{
+    width: 50vw;
+    aspect-ratio: 4/4;
+}
+.thumbnail iframe{
+    height: 100%;
+    width: 100%;
+}
+}

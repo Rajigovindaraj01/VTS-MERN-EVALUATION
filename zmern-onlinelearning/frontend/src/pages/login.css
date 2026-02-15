@@ -1,0 +1,335 @@
+.body-container{
+    background-size: cover;
+    padding: 20px;
+    background-image: url('https://images2.alphacoders.com/119/thumb-1920-1192311.jpg');
+}
+.logo{
+    font-family: "Winky Sans", sans-serif;
+    font-size: 1.5rem;
+    color: rgb(255, 224, 255);
+    text-shadow: 0 0 10px black;
+    font-weight: 600;
+}
+.logo span{
+    font-family: "Pompiere", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.login-container{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(243, 240, 240, 0.658);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0 0 20px rgb(136, 75, 136);
+}
+.login-col1{
+    width: 100%;
+    aspect-ratio: 4/6;
+}
+.login-col1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+}
+.form-container input{
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px dashed plum;
+    background-color: rgba(243, 240, 240, 0.658);
+}
+.form-container input:focus {
+    box-shadow: 0 0 10px rgb(139, 67, 139);
+    outline: none;
+}
+.form-container button{
+    position: relative;
+    margin-top: 5%;
+    color: white;
+    font-size: 20px;
+    width: 60%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px violet, 0 0 20px rgb(150, 31, 150);
+    background: linear-gradient(135deg,plum,rgb(173, 118, 173));
+}
+.form-container button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(129, 72, 129);
+}
+.newuser{
+    font-size: 20px;
+     font-family: "Oswald", sans-serif;
+}
+.newuser a{
+    text-decoration: none;
+    color: purple;
+}
+.login-container h2{
+    font-size: 2rem;
+    text-shadow: 0 0 5px violet;
+    color: purple;
+     font-family: "Winky Sans", sans-serif;
+}
+@media (min-width:300px) and (max-width:400px) {
+.login-container{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(243, 240, 240, 0.658);
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0 0 20px rgb(136, 75, 136);
+}
+.login-col1{
+    width: 100%;
+    aspect-ratio: 4/6;
+}
+.login-col1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.form-container input{
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px dashed plum;
+    background-color: rgba(243, 240, 240, 0.658);
+}
+.form-container input:focus {
+    box-shadow: 0 0 10px rgb(139, 67, 139);
+    outline: none;
+}
+.form-container button{
+    position: relative;
+    margin-top: 5%;
+    color: white;
+    font-size: 15px;
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px violet, 0 0 20px rgb(150, 31, 150);
+    background: linear-gradient(135deg,plum,rgb(173, 118, 173));
+}
+.form-container button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(129, 72, 129);
+}
+.newuser{
+    font-size: 15px;
+     font-family: "Oswald", sans-serif;
+}
+.newuser a{
+    text-decoration: none;
+    color: purple;
+}
+.login-container h2{
+    font-size: 2rem;
+    text-shadow: 0 0 5px violet;
+    color: purple;
+     font-family: "Winky Sans", sans-serif;
+}
+}
+@media (min-width:401px) and (max-width:576px) {
+.login-container{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(243, 240, 240, 0.658);
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0 0 20px rgb(136, 75, 136);
+}
+.login-col1{
+    width: 100%;
+    aspect-ratio: 4/6;
+}
+.login-col1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.form-container input{
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px dashed plum;
+    background-color: rgba(243, 240, 240, 0.658);
+}
+.form-container input:focus {
+    box-shadow: 0 0 10px rgb(139, 67, 139);
+    outline: none;
+}
+.form-container button{
+    position: relative;
+    margin-top: 5%;
+    color: white;
+    font-size: 15px;
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px violet, 0 0 20px rgb(150, 31, 150);
+    background: linear-gradient(135deg,plum,rgb(173, 118, 173));
+}
+.form-container button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(129, 72, 129);
+}
+.newuser{
+    font-size: 15px;
+     font-family: "Oswald", sans-serif;
+}
+.newuser a{
+    text-decoration: none;
+    color: purple;
+}
+.login-container h2{
+    font-size: 2rem;
+    text-shadow: 0 0 5px violet;
+    color: purple;
+     font-family: "Winky Sans", sans-serif;
+}
+}
+@media (min-width:577px) and (max-width:768px) {
+.login-container{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(243, 240, 240, 0.658);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0 0 20px rgb(136, 75, 136);
+}
+.login-col1{
+    width: 100%;
+    aspect-ratio: 4/6;
+}
+.login-col1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.form-container input{
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px dashed plum;
+    background-color: rgba(243, 240, 240, 0.658);
+}
+.form-container input:focus {
+    box-shadow: 0 0 10px rgb(139, 67, 139);
+    outline: none;
+}
+.form-container button{
+    position: relative;
+    margin-top: 5%;
+    color: white;
+    font-size: 15px;
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px violet, 0 0 20px rgb(150, 31, 150);
+    background: linear-gradient(135deg,plum,rgb(173, 118, 173));
+}
+.form-container button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(129, 72, 129);
+}
+.newuser{
+    font-size: 15px;
+     font-family: "Oswald", sans-serif;
+}
+.newuser a{
+    text-decoration: none;
+    color: purple;
+}
+.login-container h2{
+    font-size: 2rem;
+    text-shadow: 0 0 5px violet;
+    color: purple;
+     font-family: "Winky Sans", sans-serif;
+}
+}
+@media (min-width:769px) and (max-width:992px) {
+.login-container{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(243, 240, 240, 0.658);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0 0 20px rgb(136, 75, 136);
+}
+.login-col1{
+    width: 100%;
+    aspect-ratio: 4/6;
+}
+.login-col1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.form-container input{
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px dashed plum;
+    background-color: rgba(243, 240, 240, 0.658);
+}
+.form-container input:focus {
+    box-shadow: 0 0 10px rgb(139, 67, 139);
+    outline: none;
+}
+.form-container button{
+    position: relative;
+    margin-top: 5%;
+    color: white;
+    font-size: 15px;
+    width: 60%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px violet, 0 0 20px rgb(150, 31, 150);
+    background: linear-gradient(135deg,plum,rgb(173, 118, 173));
+}
+.form-container button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(129, 72, 129);
+}
+.newuser{
+    font-size: 18px;
+     font-family: "Oswald", sans-serif;
+}
+.newuser a{
+    text-decoration: none;
+    color: purple;
+}
+.login-container h2{
+    font-size: 2rem;
+    text-shadow: 0 0 5px violet;
+    color: purple;
+     font-family: "Winky Sans", sans-serif;
+}
+}

@@ -1,0 +1,265 @@
+.feedback-container{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.349);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(124, 65, 124);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.feedback-container h2 , h3{
+    font-family: "Winky Sans", sans-serif;
+}
+.feedback-container h3{
+    margin-bottom: 5%;
+}
+.feedback-container label{
+    position: relative;
+    margin-top: 5%;
+    font-family: "Winky Sans", sans-serif;
+}
+.feedback-container select{
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 10px;
+    border: 1px dashed purple;
+}
+.feedback-container select option{
+    background-color: rgba(255, 255, 255, 0.589) !important;
+}
+.feedback-container textarea{
+    background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 10px;
+    border: 1px dashed purple;
+    padding: 20px;
+    width: 100%;
+}
+.feedback-container textarea:focus{
+    box-shadow: 0 0 20px purple;
+}
+.feedback-container button{
+    position: relative;
+    margin-top: 3%;
+    color: white;
+    font-size: 15px;
+    width: 50%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px violet, 0 0 20px rgb(150, 31, 150);
+    background: linear-gradient(135deg,plum,rgb(173, 118, 173));
+}
+.feedback-container button:hover{
+    box-shadow: inset 5px 5px 5px black;
+    cursor: pointer;
+}
+.feed{
+     background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 10px;
+    border: 1px dashed purple !important;
+    padding: 20px;
+    width: 100%;
+}
+.feed p{
+    font-family: "Pompiere", sans-serif;
+    font-size: 20px;
+}
+.feedimage{
+    width: 100%;
+    aspect-ratio: 4/4;
+}
+.feedimage img{
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(0 0 10px rgb(73, 17, 99));
+    animation: shadow 1.5s infinite forwards ease-in-out;
+}
+
+@keyframes shadow {
+    from{
+        filter: drop-shadow(0 0 0);
+    }
+}
+@media (min-width:300px) and (max-width:400px){
+     .feedback-container{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.349);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(124, 65, 124);
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+.feedback-container h2 , h3{
+    font-family: "Winky Sans", sans-serif;
+}
+.feedback-container h3{
+    margin-bottom: 5%;
+}
+.feedback-container label{
+    position: relative;
+    margin-top: 5%;
+    font-family: "Winky Sans", sans-serif;
+}
+.feedback-container select{
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 10px;
+    border: 1px dashed purple;
+}
+.feedback-container select option{
+    background-color: rgba(255, 255, 255, 0.589) !important;
+}
+.feedback-container textarea{
+    background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 10px;
+    border: 1px dashed purple;
+    padding: 20px;
+    width: 100%;
+}
+.feedback-container textarea:focus{
+    box-shadow: 0 0 20px purple;
+}
+.feedback-container button{
+    position: relative;
+    margin-top: 3%;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px violet, 0 0 20px rgb(150, 31, 150);
+    background: linear-gradient(135deg,plum,rgb(173, 118, 173));
+}
+.feedback-container button:hover{
+    box-shadow: inset 5px 5px 5px black;
+    cursor: pointer;
+}
+.feed{
+     background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 10px;
+    border: 1px dashed purple !important;
+    padding: 20px;
+    width: 100%;
+}
+.feed p{
+    font-family: "Pompiere", sans-serif;
+    font-size: 20px;
+}
+.feedimage{
+    width: 100%;
+    aspect-ratio: 4/5;
+}
+.feedimage img{
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(0 0 10px rgb(73, 17, 99));
+    animation: shadow 1.5s infinite forwards ease-in-out;
+}
+
+@keyframes shadow {
+    from{
+        filter: drop-shadow(0 0 0);
+    }
+}
+}
+@media (min-width:401px) and (max-width:576px){
+     .feedback-container{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.349);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(124, 65, 124);
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+.feedback-container h2 , h3{
+    font-family: "Winky Sans", sans-serif;
+}
+.feedback-container h3{
+    margin-bottom: 5%;
+}
+.feedback-container label{
+    position: relative;
+    margin-top: 5%;
+    font-family: "Winky Sans", sans-serif;
+}
+.feedback-container select{
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 10px;
+    border: 1px dashed purple;
+}
+.feedback-container select option{
+    background-color: rgba(255, 255, 255, 0.589) !important;
+}
+.feedback-container textarea{
+    background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 10px;
+    border: 1px dashed purple;
+    padding: 20px;
+    width: 100%;
+}
+.feedback-container textarea:focus{
+    box-shadow: 0 0 20px purple;
+}
+.feedback-container button{
+    position: relative;
+    margin-top: 3%;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px violet, 0 0 20px rgb(150, 31, 150);
+    background: linear-gradient(135deg,plum,rgb(173, 118, 173));
+}
+.feedback-container button:hover{
+    box-shadow: inset 5px 5px 5px black;
+    cursor: pointer;
+}
+.feed{
+     background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 10px;
+    border: 1px dashed purple !important;
+    padding: 20px;
+    width: 100%;
+}
+.feed p{
+    font-family: "Pompiere", sans-serif;
+    font-size: 20px;
+}
+.feedimage{
+    width: 100%;
+    aspect-ratio: 4/5;
+}
+.feedimage img{
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(0 0 10px rgb(73, 17, 99));
+    animation: shadow 1.5s infinite forwards ease-in-out;
+}
+
+@keyframes shadow {
+    from{
+        filter: drop-shadow(0 0 0);
+    }
+}
+}

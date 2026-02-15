@@ -1,0 +1,467 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    padding-bottom: 10%;
+    background:linear-gradient(135deg,rgba(199, 149, 199, 0.514),rgba(255, 192, 203, 0.301));
+}
+.dashboard-container-1{
+    background-image: url('https://i.pinimg.com/1200x/e3/7a/5d/e37a5d97df6f5b40ad834b89b045f160.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.dashboard-container-1{
+    width: 100%;
+    padding: 30px;
+    margin: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.dash-con1-col1 h1{
+    font-size: 3rem;
+    font-family: "Winky Sans", sans-serif;
+}
+.dash-con1-col1 p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Pompiere", sans-serif;
+}
+.dash-con1-col2{
+    width: 90%;
+    aspect-ratio: 4/5;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dash-con1-col2 img{
+    height: 100%;
+    filter: drop-shadow(0 0 20px black);
+    width: 100%;
+}
+.dash-con1-col1 button{
+    position: relative;
+    margin-top: 5%;
+    color: white;
+    font-size: 15px;
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px violet, 0 0 20px rgb(150, 31, 150);
+    background: linear-gradient(135deg,plum,rgb(173, 118, 173));
+}
+.dash-con1-col1 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(129, 72, 129);
+}
+@media (min-width:300px) and (max-width:400px) {
+.dashboard-container-1{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+.dash-con1-col1 h1{
+    font-size: 1.5rem;
+    font-family: "Winky Sans", sans-serif;
+}
+.dash-con1-col1 p{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Pompiere", sans-serif;
+}
+.dash-con1-col2{
+    width: 90%;
+    aspect-ratio: 4/5;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dash-con1-col2 img{
+    height: 100%;
+    filter: drop-shadow(0 0 20px black);
+    width: 100%;
+}
+.dash-con1-col1 button{
+    position: relative;
+    margin-top: 5%;
+    color: white;
+    font-size: 15px;
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px violet, 0 0 20px rgb(150, 31, 150);
+    background: linear-gradient(135deg,plum,rgb(173, 118, 173));
+}
+.dash-con1-col1 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(129, 72, 129);
+}
+}
+@media (min-width:401px) and (max-width:576px) {
+.dashboard-container-1{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+.dash-con1-col1 h1{
+    font-size: 1.5rem;
+    font-family: "Winky Sans", sans-serif;
+}
+.dash-con1-col1 p{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Pompiere", sans-serif;
+}
+.dash-con1-col2{
+    width: 90%;
+    aspect-ratio: 4/5;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dash-con1-col2 img{
+    height: 100%;
+    filter: drop-shadow(0 0 20px black);
+    width: 100%;
+}
+.dash-con1-col1 button{
+    position: relative;
+    margin-top: 5%;
+    color: white;
+    font-size: 15px;
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px violet, 0 0 20px rgb(150, 31, 150);
+    background: linear-gradient(135deg,plum,rgb(173, 118, 173));
+}
+.dash-con1-col1 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(129, 72, 129);
+}
+}
+@media (min-width:577px) and (max-width:768px) {
+.dashboard-container-1{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.dash-con1-col1 h1{
+    font-size: 1.5rem;
+    font-family: "Winky Sans", sans-serif;
+}
+.dash-con1-col1 p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Pompiere", sans-serif;
+}
+.dash-con1-col2{
+    width: 90%;
+    aspect-ratio: 4/5;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dash-con1-col2 img{
+    height: 100%;
+    filter: drop-shadow(0 0 20px black);
+    width: 100%;
+}
+.dash-con1-col1 button{
+    position: relative;
+    margin-top: 5%;
+    color: white;
+    font-size: 15px;
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px violet, 0 0 20px rgb(150, 31, 150);
+    background: linear-gradient(135deg,plum,rgb(173, 118, 173));
+}
+.dash-con1-col1 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(129, 72, 129);
+}
+}
+@media (min-width:769px) and (max-width:992px) {
+.dashboard-container-1{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.dash-con1-col1 h1{
+    font-size: 2rem;
+    font-family: "Winky Sans", sans-serif;
+}
+.dash-con1-col1 p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Pompiere", sans-serif;
+}
+.dash-con1-col2{
+    width: 90%;
+    aspect-ratio: 4/5;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dash-con1-col2 img{
+    height: 100%;
+    filter: drop-shadow(0 0 20px black);
+    width: 100%;
+}
+.dash-con1-col1 button{
+    position: relative;
+    margin-top: 5%;
+    color: white;
+    font-size: 15px;
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px violet, 0 0 20px rgb(150, 31, 150);
+    background: linear-gradient(135deg,plum,rgb(173, 118, 173));
+}
+.dash-con1-col1 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(129, 72, 129);
+}
+}
+@media (min-width:993px) and (max-width:1200px) {
+.dashboard-container-1{
+    background-image: url('https://i.pinimg.com/1200x/e3/7a/5d/e37a5d97df6f5b40ad834b89b045f160.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dashboard-container-1{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.dash-con1-col1 h1{
+    font-size: 2.5rem;
+    font-family: "Winky Sans", sans-serif;
+}
+.dash-con1-col1 p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Pompiere", sans-serif;
+}
+.dash-con1-col2{
+    width: 90%;
+    aspect-ratio: 4/5;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dash-con1-col2 img{
+    height: 100%;
+    filter: drop-shadow(0 0 20px black);
+    width: 100%;
+}
+.dash-con1-col1 button{
+    position: relative;
+    margin-top: 5%;
+    color: white;
+    font-size: 15px;
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px violet, 0 0 20px rgb(150, 31, 150);
+    background: linear-gradient(135deg,plum,rgb(173, 118, 173));
+}
+.dash-con1-col1 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px rgb(129, 72, 129);
+}
+}
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+.all{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Winky Sans", sans-serif;
+}
+.allcourses-container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+    position: relative;
+    margin-top: 5%;
+}
+.allcourses-card{
+    background-color: rgba(255, 255, 255, 0.418);
+    border: 1px dashed purple;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    aspect-ratio: 4/5;
+    overflow: scroll;
+    scrollbar-width: none;
+    box-shadow: inset 0 0 20px rgb(88, 2, 88);
+}
+.allcourses-card:hover{
+    box-shadow: 0 0 20px rgb(88, 2, 88);
+}
+.ctitle{
+    font-family: "Winky Sans", sans-serif;
+    font-size: 2rem;
+}
+.cdesc{
+    font-family: "Pompiere", sans-serif;
+    font-size: 1.2rem;
+}
+.ctit{
+    font-family: "Winky Sans", sans-serif;
+    font-size: 1.2rem;
+}
+.allcourses-card p{
+    font-family: "Pompiere", sans-serif;
+    font-size: 1.2rem;
+}
+.allcourses-card a{
+    font-family: "Pompiere", sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+.feedback{
+    background-color: rgba(128, 0, 128, 0.199);
+}
+@media (min-width:300px) and (max-width:400px) {   
+body{
+    padding-bottom: 30%;
+}    
+.all{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Winky Sans", sans-serif;
+}
+.allcourses-container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3%;
+    position: relative;
+    margin-top: 5%;
+}
+.allcourses-card{
+    background-color: rgba(255, 255, 255, 0.418);
+    border: 1px dashed purple;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+}
+.ctitle{
+    font-family: "Winky Sans", sans-serif;
+    font-size: 1.5rem;
+}
+.cdesc{
+    font-family: "Pompiere", sans-serif;
+    font-size: 1.2rem;
+}
+.ctit{
+    font-family: "Winky Sans", sans-serif;
+    font-size: 1.2rem;
+}
+.allcourses-card p{
+    font-family: "Pompiere", sans-serif;
+    font-size: 1.2rem;
+}
+.allcourses-card a{
+    font-family: "Pompiere", sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+.feedback{
+    background-color: rgba(128, 0, 128, 0.199);
+}
+}
+@media (min-width:401px) and (max-width:576px) {   
+body{
+    padding-bottom: 30%;
+}    
+.all{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Winky Sans", sans-serif;
+}
+.allcourses-container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3%;
+    position: relative;
+    margin-top: 5%;
+}
+.allcourses-card{
+    background-color: rgba(255, 255, 255, 0.418);
+    border: 1px dashed purple;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+}
+.ctitle{
+    font-family: "Winky Sans", sans-serif;
+    font-size: 1.5rem;
+}
+.cdesc{
+    font-family: "Pompiere", sans-serif;
+    font-size: 1.2rem;
+}
+.ctit{
+    font-family: "Winky Sans", sans-serif;
+    font-size: 1.2rem;
+}
+.allcourses-card p{
+    font-family: "Pompiere", sans-serif;
+    font-size: 1.2rem;
+}
+.allcourses-card a{
+    font-family: "Pompiere", sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+.feedback{
+    background-color: rgba(128, 0, 128, 0.199);
+}
+}
